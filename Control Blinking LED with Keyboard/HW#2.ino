@@ -1,3 +1,4 @@
+//Patricia Figueroa 
 //HW # 2 Control Blinking LED with Keyboard
 //Blink the built in LED on/off for 1 second each at startup
 //If you enter a ‘+’ on the keyboard:
