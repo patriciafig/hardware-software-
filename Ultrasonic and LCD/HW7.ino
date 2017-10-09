@@ -43,7 +43,7 @@ void loop() {
   lcd.setCursor(0,0);   lcd.print ("     ");  lcd.setCursor(0,0); lcd.print(distance); Serial.println(distance); 
 
   distance = (duration * .017); 
-  lcd.setCursor(0,0);   lcd.print ("     ");  lcd.setCursor(0,0); lcd.print(distance); Serial.println(distance); 
+  lcd.setCursor(0,1);   lcd.print ("     ");  lcd.setCursor(0,1); lcd.print(distance); Serial.println(distance); 
   
 
   delay (500); 
