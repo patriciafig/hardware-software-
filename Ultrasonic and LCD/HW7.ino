@@ -25,7 +25,7 @@ void setup() {
   lcd.print (" Inches "); 
 
   lcd.setCursor (8,1) 
-  lcd.print("cm")
+  lcd.print(" cm ")
   
 }
 
@@ -46,7 +46,6 @@ void loop() {
   
 
   delay (500); 
-
 
 }
 
