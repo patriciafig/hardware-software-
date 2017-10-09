@@ -1,0 +1,19 @@
+
+Using the DHT11 to measure the temperature and humidity
+
+Use the LCD to display:
+
+                                  Temp:  xx.x F
+
+                                         yy.y C             And then one second later:
+
+                                  Humid:  zz.zz %
+
+                                  T/H Index:  ww.w F         And repeat forever
+
+Use D13 for DHT11 sensor
+
+For this assignment, use millis() for your 1 second timer and every time the timer expires, 
+call a routine that will toggle between displaying the data for Temp and the data for Humid/Temp Humid index.
+Have a separate part of your code collecting the information and storing it for display.
+E.g. two distinct parts of your code: data collection and data display.
