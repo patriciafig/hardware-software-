@@ -32,6 +32,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
+  float duration, distance;
   digitalWrite(trigPin, HIGH); 
   delayMicroseconds(20); 
   digitalWrite(trigPin, LOW); 
