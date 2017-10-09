@@ -5,7 +5,7 @@
 
 #include <LiquidCrystal_I2C.h>  
 
-#define trigPin D1 
+#define trigPin A1 
 #define echoPin A2 
 
 LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // Set the LCD I2C address
